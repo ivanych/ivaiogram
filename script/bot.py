@@ -46,6 +46,7 @@ async def reply_spec_handler(message: types.Message) -> None:
         "бот": "Чо?",
         "не знаю": "Ну шо ты сразу сдаёшься-то?!",
         "ебать": "В русском языке всего четыре матерных корня.",
+        "макось": "Хуякось! При Джобсе такого не было!",
     }
 
     result = fruits.get(message.text.lower())
